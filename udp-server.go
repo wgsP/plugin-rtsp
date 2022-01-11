@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	. "github.com/Monibuca/utils/v3"
+	. "github.com/wgsP/utils/v3"
 )
 
 type UDPServer struct {
