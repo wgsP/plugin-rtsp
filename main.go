@@ -3,6 +3,7 @@ package rtsp
 import (
 	"bufio"
 	"fmt"
+	"github.com/teris-io/shortid"
 	"log"
 	"net"
 	"net/http"
@@ -11,7 +12,6 @@ import (
 
 	. "github.com/wgsP/engine/v3"
 	. "github.com/wgsP/utils/v3"
-	"github.com/teris-io/shortid"
 )
 
 var config = struct {
